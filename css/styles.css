@@ -626,7 +626,7 @@ width: 270px;
 
 }
 .footer-social-media {
-margin-left: 70px;
+margin-left: 93px;
 }
 .social-media {
     display: flex;
@@ -671,10 +671,11 @@ background-color: var(--accent-color);
 .subscription {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-left: 93px;
 }
 
 .subscription-title {
+    margin-top: 0;
     margin-bottom: 20px;
     
     font-weight: 700;
@@ -857,6 +858,7 @@ background-color: var(--accent-color);
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    padding: 40px;
 
     opacity: 1;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -933,6 +935,9 @@ background-color: var(--accent-color);
     font-size: 20px;
     line-height: 1.15;
     color: var(--title-text-color);
+
+    margin-top: 0;
+    margin-bottom: 12px;
 } 
 
 
@@ -947,6 +952,8 @@ background-color: var(--accent-color);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+
+    margin-bottom: 4px;
 
 } 
 
@@ -984,12 +991,13 @@ fill: var(--accent-color);
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    margin-bottom: 20px;
 } 
 
 .comments {
     width: 100%;
     height: 120px;
-    margin-bottom: 20px;
     padding: 12px 16px;
 
     border: 1px solid #21212133;
@@ -997,7 +1005,7 @@ fill: var(--accent-color);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+   
     resize: none;
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1018,6 +1026,8 @@ fill: var(--accent-color);
     font-size: 14px;
     line-height: 1.7;
     color: var(--primary-text-color);
+
+    align-items: center;
 } 
 
 .input-checkbox {
@@ -1031,7 +1041,7 @@ fill: var(--accent-color);
     height: 15px;
     border: 2px solid var(--title-text-color);
     transform: translate(-50%);
-    top: 4px;
+   border-radius: 3px;
     fill: var(--hero-color);
     
     cursor: pointer;
